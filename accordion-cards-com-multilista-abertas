@@ -1,0 +1,47 @@
+# Bootstrap-4
+Accordion cards com multilista abertas
+
+<div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link btn-one" type="button" data-parent="#accordion" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Processo
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="card-body">
+                      Conteúdo collapse 1
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link btn-two collapsed" type="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Ocorrência
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+                      Conteúdo collapse 2
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link btn-three collapsed" type="button" data-parent="#accordion" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Prestador
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
+                    <div class="card-body">
+                     Conteúdo collapse 3
+                    </div>
+                  </div>
+                </div>
+              </div>
